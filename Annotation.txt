@@ -1,0 +1,36 @@
+Aws initial concepts
+
+serviços 
+
+1 - Elastic Container Service - ECS - sao serviços criar aplicacacoes baseadas em containers
+2 - Fragate - container service da Aws
+3 - Application Load Balancer  ALB -> Trabalha em conjunto com ECS para fazer balanceamento e requisicoes  de carga em uma applicacao baseada containers 
+4 - Virtual Private Cloud VPC --> Uma Possiblidade de vc criar uma rede dentro da Aws pra proteger recurso de acesso externo
+5 - Relational Database Service RDS -> Um servico gerencialvel pra criacao de banco de dados relacional como Mysql e Postgres
+6 - DynamoDB (NoSQL) - DDB --> Servico pra criacao de banco de dados nao realacional 
+7 - Simpe Notification Service SNS --> um serviço pra fazer funout de envio de mensagem de notificacao 
+8 - Simple Queue Service - SQS --> servico de mensageria para entrega de mensagens
+9 - Simple Storage Service S3 --> servico gerencialvel para armazenamento de objectos
+10 - Amazon CloudWatch --> para monitorar logs e metricas da Application
+11 - Api Gateway --> um servico que pode ser colocada na frente das aplication que expoem api , para proteger fazer validacao e etc
+12 - Lambda --> Servico que permite criar aplicaoes baseadas em funcoes server-Less
+
+Projecto 
+
+criacao de um sistema de ecommerce ficticio
+
+ 1 - Gerenciamento de Produtos
+ 2 - Gerenciamento de Pedidos
+ 3 - Geracao de Eventos
+ 4 - Importacao de notas fiscais
+ 5 - Auditoria
+ 6 - Autenticacao de Usuarios
+ 7 - Alarmes
+
+ preparacao do ambiente de Desenvolvimento
+
+1 - criar uma conta na AWS
+2 - Ambiente de desenvolvimento
+
+
+
