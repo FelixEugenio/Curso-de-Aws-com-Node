@@ -77,5 +77,15 @@ caso algum processo dentro da sctack falhe durante o deployment é feito o rollb
 
 stacks podem ter dependecnias de outras stacks 
 
+Eventos 
+
+Marcam cada passo do processo de deployment da stack
+
+e possivel visualizar razoes de falhas e problemas 
+
+determinam o status da stack
+
+
+
 
 
