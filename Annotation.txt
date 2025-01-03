@@ -90,5 +90,11 @@ Recursos
 1 - recursos correlatos devem fazer parte de uma stack
 
 
+Parametros
 
+1 - a criação das stacks e de seus recursos pode ser parametrizada
+
+esses paramentros podem servir parar definir o comportamento da stack ou problemas 
+
+parametros podem ser contextuais ao ambiente em que a satck esta sendo criada
 
