@@ -50,3 +50,18 @@ template é submetido ao CloudfORMATION
 
 stack sao criadas para gerenciar o processo de provisionamento dos recursos
 
+apos isso o recurso em si é criado
+
+
+Template 
+
+1 - definicao do tipo do recurso
+
+2 - propriededades
+
+3 - metadatas
+
+4 - cnfiguracoes 
+
+
+
