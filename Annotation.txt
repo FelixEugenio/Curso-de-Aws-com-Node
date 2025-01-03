@@ -42,3 +42,11 @@ e um processo automatizado pra criar recursos
 
 3 - Criação de Réplicas da infraestrutura
 
+Qual é o processo de criação de recurso
+
+criacao de template em formato Json ou yaml
+
+template é submetido ao CloudfORMATION
+
+stack sao criadas para gerenciar o processo de provisionamento dos recursos
+
