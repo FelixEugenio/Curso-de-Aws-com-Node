@@ -85,6 +85,9 @@ e possivel visualizar razoes de falhas e problemas
 
 determinam o status da stack
 
+Recursos 
+
+1 - recursos correlatos devem fazer parte de uma stack
 
 
 
