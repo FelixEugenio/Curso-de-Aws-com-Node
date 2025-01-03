@@ -1,0 +1,129 @@
+Aws initial concepts
+
+serviços 
+
+1 - Elastic Container Service - ECS - sao serviços criar aplicacacoes baseadas em containers
+2 - Fragate - container service da Aws
+3 - Application Load Balancer  ALB -> Trabalha em conjunto com ECS para fazer balanceamento e requisicoes  de carga em uma applicacao baseada containers 
+4 - Virtual Private Cloud VPC --> Uma Possiblidade de vc criar uma rede dentro da Aws pra proteger recurso de acesso externo
+5 - Relational Database Service RDS -> Um servico gerencialvel pra criacao de banco de dados relacional como Mysql e Postgres
+6 - DynamoDB (NoSQL) - DDB --> Servico pra criacao de banco de dados nao realacional 
+7 - Simpe Notification Service SNS --> um serviço pra fazer funout de envio de mensagem de notificacao 
+8 - Simple Queue Service - SQS --> servico de mensageria para entrega de mensagens
+9 - Simple Storage Service S3 --> servico gerencialvel para armazenamento de objectos
+10 - Amazon CloudWatch --> para monitorar logs e metricas da Application
+11 - Api Gateway --> um servico que pode ser colocada na frente das aplication que expoem api , para proteger fazer validacao e etc
+12 - Lambda --> Servico que permite criar aplicaoes baseadas em funcoes server-Less
+
+Projecto 
+
+criacao de um sistema de ecommerce ficticio
+
+ 1 - Gerenciamento de Produtos
+ 2 - Gerenciamento de Pedidos
+ 3 - Geracao de Eventos
+ 4 - Importacao de notas fiscais
+ 5 - Auditoria
+ 6 - Autenticacao de Usuarios
+ 7 - Alarmes
+
+ preparacao do ambiente de Desenvolvimento
+
+1 - criar uma conta na AWS
+2 - Ambiente de desenvolvimento
+
+Oque é Aws Cloud Formation
+
+e um processo automatizado pra criar recursos
+
+1 - versionamento de templates 
+
+2 - controle de mudanças
+
+3 - Criação de Réplicas da infraestrutura
+
+Qual é o processo de criação de recurso
+
+criacao de template em formato Json ou yaml
+
+template é submetido ao CloudfORMATION
+
+stack sao criadas para gerenciar o processo de provisionamento dos recursos
+
+apos isso o recurso em si é criado
+
+
+Template 
+
+1 - definicao do tipo do recurso
+
+2 - propriededades
+
+3 - metadatas
+
+4 - cnfiguracoes 
+
+Stacks
+
+sao uma organizacao de recusros relacionados sao criados dentro da stack
+
+stckacks podem ser criadas , atualizadas ou apagadas
+
+acoes nas asctacks sao refletidas nos recursos
+
+a organizacao dos recursos dentro das stacks depende de cada criados
+
+caso algum processo dentro da sctack falhe durante o deployment é feito o rollback de todas as acoes previas 
+
+stacks podem ter dependecnias de outras stacks 
+
+Eventos 
+
+Marcam cada passo do processo de deployment da stack
+
+e possivel visualizar razoes de falhas e problemas 
+
+determinam o status da stack
+
+Recursos 
+
+1 - recursos correlatos devem fazer parte de uma stack
+
+
+Parametros
+
+1 - a criação das stacks e de seus recursos pode ser parametrizada
+
+esses paramentros podem servir parar definir o comportamento da stack ou problemas 
+
+parametros podem ser contextuais ao ambiente em que a satck esta sendo criada
+
+Aws cloud deveolpment kit CDK 
+
+consceitos iniciais 
+
+E UM FRAMEWORK para criacao de recursos na nuvem
+
+pode ser utilizado typescript , python , java e .Net
+
+Aws Cinstruct library ---> 
+
+pode ser usado com jenkins ou aws codePipeline
+
+criacao da infraestrutura
+
+aws coud deveolpment kit
+
+modelagem dos recurso da infraestrutura em java , typescript , .Net ou c#
+
+geracao do template do CloudfORMATION
+
+IAM ---> 
+
+
+criar projecto com cdk --> cdk init --language typescript
+
+dependecnias
+aws-sdk 
+@types/Lambda
+@types/uuid
