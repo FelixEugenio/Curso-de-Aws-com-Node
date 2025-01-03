@@ -32,5 +32,13 @@ criacao de um sistema de ecommerce ficticio
 1 - criar uma conta na AWS
 2 - Ambiente de desenvolvimento
 
+Oque é Aws Cloud Formation
 
+e um processo automatizado pra criar recursos
+
+1 - versionamento de templates 
+
+2 - controle de mudanças
+
+3 - Criação de Réplicas da infraestrutura
 
