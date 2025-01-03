@@ -63,5 +63,19 @@ Template
 
 4 - cnfiguracoes 
 
+Stacks
+
+sao uma organizacao de recusros relacionados sao criados dentro da stack
+
+stckacks podem ser criadas , atualizadas ou apagadas
+
+acoes nas asctacks sao refletidas nos recursos
+
+a organizacao dos recursos dentro das stacks depende de cada criados
+
+caso algum processo dentro da sctack falhe durante o deployment é feito o rollback de todas as acoes previas 
+
+stacks podem ter dependecnias de outras stacks 
+
 
 
