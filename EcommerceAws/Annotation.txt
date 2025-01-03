@@ -127,3 +127,9 @@ dependecnias
 aws-sdk 
 @types/Lambda
 @types/uuid
+
+Comands
+1 - cdk list ---> Visualizar o nosso projecto pra saber as stacks
+2 - cdk deploy --all 
+3 -- cdk diff , faz uma compraracao de tudo que temos na aws e aqui no nosso projecto
+4 - cdk destroy --all destroi todas as stacks do nosso pprojecto
