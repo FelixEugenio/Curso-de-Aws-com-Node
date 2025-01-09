@@ -142,3 +142,21 @@ trigger
 evento
 runtime
 concorrencia
+
+project do configuracoes
+
+sistema de ecommerce ficticio
+
+gerenciamento de produtos
+
+gerenciamento de Pedidos
+
+geração de Eventos
+
+Importacao de notas fiscais
+
+Auditoria
+
+Alarmes
+
+
