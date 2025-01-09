@@ -61,7 +61,7 @@ Template
 
 3 - metadatas
 
-4 - cnfiguracoes 
+4 - configuracoes 
 
 Stacks
 
@@ -133,3 +133,12 @@ Comands
 2 - cdk deploy --all 
 3 -- cdk diff , faz uma compraracao de tudo que temos na aws e aqui no nosso projecto
 4 - cdk destroy --all destroi todas as stacks do nosso pprojecto
+
+--Lambda
+executa pesquenos codigos apartir de gatlhos ou triggers
+que podem ser 
+funcao
+trigger
+evento
+runtime
+concorrencia
