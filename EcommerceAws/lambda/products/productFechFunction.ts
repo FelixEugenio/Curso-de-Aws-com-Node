@@ -5,6 +5,8 @@ export async function handler(event:APIGatewayProxyEvent, context:Context):Promi
 
     const lambdaRequestId = context.awsRequestId;
     const apiRequestId = event.requestContext.requestId
+    console.log(`Lambda request ID: ${lambdaRequestId}`);
+    console.log(`API Gateway request ID: ${apiRequestId}`);
     const method = event.httpMethod;
 
     if(event.resource === '/products'){
